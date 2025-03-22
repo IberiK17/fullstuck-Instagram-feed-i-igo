@@ -1,0 +1,19 @@
+body {
+	height: 100px;
+	background: rgb(255, 255, 255);
+	display: flex;
+	border-radius: 5px;
+	align-items: center;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+.post {
+    width:500px;
+    border:1px solid:black;
+    margin:0 auto;
+
+}
+
