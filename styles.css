@@ -2,8 +2,19 @@ body {
 	height: auto;
 	background-color:#000000 ;
 	border-radius: 5px;
+	font-family:Roboto;
 }
-	/*
+
+.roboto-<uniquifier> {
+	font-family: "Roboto", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+	font-variation-settings:
+	  "wdth" 100;
+  }
+
+/*
  * {
 	border: 1px dashed red;
 	min-height: 10px;
@@ -36,11 +47,41 @@ body {
 	margin-left:8px;
 }
 
+/*
 .image-post {
 	width: 100%;
 }
+*/
 
 .imagen {
 	width: 100%;
+
+}
+
+
+.post-icons {
+	display: flex;
+	padding: 10px;
+	font-size: 40px;
+
+}
+
+.margin-right {
+	margin-right: 8px;
+}
+
+.margin-left {
+	margin-left: auto;
+	
+
+}
+
+.likes {
+	margin:5px;
+
+}
+
+.lorem {
+	margin:5px;
 
 }
